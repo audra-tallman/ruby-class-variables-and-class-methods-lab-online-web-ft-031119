@@ -32,18 +32,9 @@ class Song
      if hash[genre]
      hash[genre] +=1
     else
-    
+    hash[genre] = 1 
       end
     end
+    hash
   end
-  
-    def sort
-    sorted = {}
-    roster.each do |grade, student_names|
-    sorted[grade]  = student_names.sort
-  end
-  sorted
-  end 
-end 
-  
 end
