@@ -38,7 +38,7 @@ class Song
     hash
   end
    
-  def self.artists_count
+  def self.artist_count
      artists = {} 
      @@artists.each do|artist|
      if artists[artist]
