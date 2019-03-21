@@ -34,4 +34,14 @@ class Song
       end
     end
   end
+  
+    def sort
+    sorted = {}
+    roster.each do |grade, student_names|
+    sorted[grade]  = student_names.sort
+  end
+  sorted
+  end 
+end 
+  
 end
